@@ -14,11 +14,13 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 5rem;
+    transition: background 0.3s linear,color 0.3s linear;
 }
 
 body.dark{
     background-color: black;
     color: white;
+    
 }
 
 label{
