@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.main-header{
+    width: 100%;
+    height: 58px;
+    background-color: rebeccapurple;
+    padding:0 30%;
+}
+
+.nav{
+  height: 100%;
+  display: flex;
+ align-items: center;
+}
+
+.heading{
+    background-color:royalblue;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.item-container{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item{
+    margin: 0;
+    padding:5px;
+}
+
+.navigation{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.cart{
+    background-color: #e1f00c;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+h2{
+    text-align: center;
+}
+
+
+main {
+  padding: 1rem;
+  margin: auto;
+}
+
+form {
+  display: inline;
+}
+
+.centered {
+  text-align: center;
+}
+
+.image {
+  height: 20rem;
+}
+
+.image img {
+  height: 100%;
+}
+
+.section-1,.section-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 40px;
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+  margin: 0;
+}
+
+.elec-cars{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.nor-cars{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 2px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botton {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    font: inherit;
+    border: 2px solid black;
+    color:brown;
+    background: #e1f00c;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .end-items{
+    background-color: #00695c;
+    color: antiquewhite;
+    padding-bottom: 100px;
+  }
+
+.ending{
+    text-align: left;
+    font-size: 60px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+
