@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+</head>
+
+<body>
+    <section class="popup">
+
+    </section>
+    <header class="main-header">
+        <nav class="nav" id="nav">
+            <h1 class="heading">Car Dekho</h1>
+            <ul class="item-container">
+                <li class="nav-item"><a href="http://127.0.0.1:5500/building%20block%20of%20e-commerce/Home.html"
+                        class="navigation">Home</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:5500/building%20block%20of%20e-commerce/store.html"
+                        class="navigation">Store</a></li>
+                <li class="nav-item"><a href="http://127.0.0.1:5500/building%20block%20of%20e-commerce/about.html"
+                        class="navigation">About</a></li>
+
+                <a href="#cart" id="cart" class="cart">Cart</a>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="cars">Cars</h2>
+    <div class="section-1">
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">TATA NEXON EV</h1>
+            </header>
+            <img class="card__image" src="nexon ev.jpg" alt="nexon-ev">
+            <div class="card__content">
+                <h2 class="product__price">₹1800000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">MG ZS EV</h1>
+            </header>
+            <img class="card__image" src="./zs ev.jpg" alt="mg zs-ev">
+            <div class="card__content">
+                <h2 class="product__price">₹2400000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">HYUNDAI KONA</h1>
+            </header>
+            <img class="card__image" src="./kona.jpg" alt="hyundai kona">
+            <div class="card__content">
+                <h2 class="product__price">₹2100000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">TATA NEXON</h1>
+            </header>
+            <img class="card__image" src="./nexon normal.jpg" alt="nexon">
+            <div class="card__content">
+                <h2 class="product__price">₹1600000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">TATA HARRIER</h1>
+            </header>
+            <img class="card__image" src="./harrier.jpg" alt="tata-harrier">
+            <div class="card__content">
+                <h2 class="product__price">₹2400000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+        <article class="card product-item">
+            <header class="card__header">
+                <h1 class="product__title">MAHINDRA XUV-700</h1>
+            </header>
+            <img class="card__image" src="./xuv 700.jpg" alt="XUV-700">
+            <div class="card__content">
+                <h2 class="product__price">₹2400000</h2>
+            </div>
+            <div class="card__actions">
+                <button class="btn">Add To Cart</button>
+            </div>
+        </article>
+    </div>
+    <section class="cart-container">
+        <h3 class="cart-heading">Cart</h3>
+        <div class="cart-parameters">
+            <span class="item-name">ITEM</span>
+            <span class="item-price">PRICE</span>
+            <span class="item-quantity">QUANTITY</span>
+        </div>
+        <hr>
+        <div class="cart-item-container">
+            
+        </div>
+        <div class="total">Total =
+          <span class="total-price">₹0</span>
+        </div>
+    </section>
+    <div class="card__actions">
+        <a href="#cart" class="cart_button">See The Cart</a>
+    </div>
+    <div class="purchase-itm">
+        <button class="purchase" type="submit">Purchase</button>
+    </div>
+</body>
+
+</html>
