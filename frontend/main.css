@@ -1,0 +1,375 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.main-header{
+    width: 100%;
+    height: 58px;
+    background-color: rebeccapurple;
+    padding:0 30%;
+}
+
+.nav{
+  height: 100%;
+  display: flex;
+ align-items: center;
+}
+
+.heading{
+    background-color:royalblue;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+
+.item-container{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item{
+    margin: 0;
+    padding:5px;
+}
+
+.navigation{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.cart{
+    background-color: #e1f00c;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+main {
+  padding: 1rem;
+  margin: auto;
+}
+
+form {
+  display: inline;
+}
+
+.centered {
+  text-align: center;
+}
+
+.image {
+  height: 20rem;
+}
+
+.image img {
+  height: 100%;
+}
+
+.section-1,.section-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 40px;
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+  margin: 0;
+}
+
+.cars{
+    color: rgb(16, 172, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 2px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart_button {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    font: inherit;
+    border: 2px solid black;
+    color:brown;
+    background: #e1f00c;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .end-items{
+    background-color: #00695c;
+    color: antiquewhite;
+    padding-bottom: 100px;
+  }
+
+.ending{
+    text-align: left;
+    font-size: 60px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.home-s{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    color: #00695c;
+}
+
+.upcoming-cars-container{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.date{
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.car-name1{
+    font-weight: bold;
+    padding-right: 20%;
+}
+
+
+.car-name2{
+    font-weight: bold;
+    padding-right: 11.9%;
+}
+
+.car-name3{
+    font-weight: bold;
+    padding-right: 15.5%;
+}
+
+.upcoming-item{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.PRE-REGISTRATION{
+    border: none;
+    border-radius: 3px;
+    background-color: rebeccapurple;
+    color: white;
+    padding:5px
+}
+
+.cart-heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+
+.cart-container{
+    padding-bottom: 20px;
+}
+
+.cart-parameters{
+    text-align: center;
+    padding: 20px;
+}
+
+.item-name{
+    padding-right: 20%;
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-price{
+    padding-right: 16%;
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-quantity{
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.toast{
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+ }
+
+ .popup{
+ position: fixed;
+ right: 10px;
+ bottom: 10px;
+}
+
+.cart-item1{
+      display: flex;
+      align-items: center;
+      padding-top: 5px;
+      padding-bottom: 10px;
+}
+
+.item-cart-image{
+  height: 80px;
+  width: 80px;
+  border: 3px solid rosybrown;
+  border-radius: 3px;
+}
+
+.itm-name{
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+.itm-price{
+  padding-left: 15%;
+  font-weight: bold;
+}
+
+.input{
+  padding-left: 16%;
+}
+
+.qty{
+  border: 2px solid rosybrown;
+  border-radius: 4px;
+  width: 50px;
+}
+
+.remove{
+  margin-left: 12%;
+  color: white;
+  padding: 5px;
+  background-color: rebeccapurple;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+
+.total{
+  text-align: right;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.purchase-itm{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.purchase{
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: royalblue;
+  color: whitesmoke;
+}
+
+.cart-container{
+  position: fixed;
+  top: 0;
+  left:20px0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-container.active{
+  display: flex;
+  }
+
+.crt-containr{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    padding: 2rem;
+    position: relative;
+    
+}
+
+#close{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+} 
