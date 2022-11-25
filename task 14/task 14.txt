@@ -1,0 +1,14 @@
+Pagination:-
+to limit the overflow of the incomming data and to make the page lag free we use pagination in this 
+we just limit the number of incomming data and call a limited amount of data lets say 5 to 10 and adds pages links down in the 
+current page so, if user wants to see more products then he clicked on next page and another 10 products array gets
+called so,pagination uses to call the data in small chunks instead of calling a big thousands of data at one time.
+
+offset:-
+offset or skip is used to determine which data needs to be sended suppose user have retrieved 20 products data and 
+now he is gonna click on third page so, to determine that onclicking page 3 products from 21-30 got retriewed from the 
+backend.
+to determine offset is used;
+
+limit:-
+limit is used to determine the number of data needs to be sent per page;

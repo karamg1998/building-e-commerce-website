@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Product</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav"><a class="active" href="/products">Add-Product</a></div>
+    </nav>
+    <section>
+        <form class="addP" action="/products" method="post">
+            <h2 class="fields">* All the fields are mendatory</h2>
+            <label class="name-input">Name:</label>
+            <input type="text" class="name" id="name" name="name"><br>
+            <label class="image-input">Image:</label>
+            <input type="text" class="image" id="image" name="image"><br>
+            <label class="price-input">Price:</label>
+            <input type="number" class="price" id="price" name="price">
+            <div class="product-button">
+                <button class="add">Add Product</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
