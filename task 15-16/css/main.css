@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+      background-color: rebeccapurple;
+      padding-bottom: 20px;
+      align-items: center;
+      
+      
+}
+
+.nav{
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.active{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addP{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.name-input,.image-input,.price-input{
+    color: royalblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name,.image{
+    margin-top: 25px;
+    border-radius: 3px;
+    border: 2px solid rgb(43, 95, 43);
+    font-size: large;
+}
+
+.price{
+    margin-top: 25px;
+    margin-left: 12px;
+    border-radius: 3px;
+    border: 2px solid rgb(43, 95, 43);
+    font-size: large;
+}
+
+
+
+.add{
+    margin-top: 20px;
+    background-color: rebeccapurple;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fields{
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
